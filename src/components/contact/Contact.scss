@@ -1,0 +1,586 @@
+.contact {
+  background: #f7f9fc;
+  padding: 131px 0;
+  .contact_content {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    .contact_card1 {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      width: 100%;
+      gap: 32px;
+      h1 {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #211f54;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #6e7191;
+        width: 79%;
+      }
+      .tell {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        .tell_texts {
+          display: flex;
+          flex-direction: column;
+          width: 120px !important;
+          gap: 8px;
+          p {
+            display: flex;
+            align-items: center;
+            font-family: Roboto;
+            width: 120px !important;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 1.600000023841858px;
+            text-align: left;
+          }
+          span {
+            width: 220px !important;
+            font-family: Roboto;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #211f54;
+          }
+        }
+      }
+      .row {
+        display: flex !important;
+        background: #dcddeb;
+        height: 1px;
+        width: 80%;
+      }
+      h2 {
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #211f54;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 214px;
+        background-color: #fff;
+        height: 73px;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        border-radius: 14px;
+        transition: all 0.3s;
+      }
+      a:hover {
+        box-shadow: 0.75px 1px 4px 6px #14142b0a;
+      }
+    }
+    .contact_card2 {
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      background-color: #fff;
+      flex-direction: column;
+      border-radius: 14px;
+      padding: 85px 61px;
+      box-shadow: 0px 2px 6px 0px #14142b0a;
+      .form {
+        display: flex !important;
+        gap: 32px;
+        .left {
+          display: flex;
+          flex-direction: column;
+          gap: 31px;
+          .inner {
+            display: flex;
+            flex-direction: column !important;
+            gap: 12px;
+            label {
+              display: flex;
+              align-items: start;
+              font-family: Roboto;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 30px;
+              letter-spacing: 0em;
+              text-align: left;
+            }
+            input {
+              width: 259px;
+              height: 72px;
+              border: 0;
+              outline: none;
+              padding: 0 20px;
+              font-family: Roboto;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 30px;
+              letter-spacing: 0em;
+              text-align: left;
+
+              border-radius: 16px;
+              border: 1px;
+              box-shadow: 0px 2px 12px 0px #14142b14;
+            }
+          }
+        }
+      }
+      .massage {
+        display: flex;
+        flex-direction: column;
+        gap: 31px;
+        margin-top: 32px;
+        label {
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        p {
+          width: 551px;
+          height: 144px;
+          box-shadow: 0px 2px 7px 0px #14142b14;
+        }
+      }
+      input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 32px;
+        background-color: #0075ff;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+
+        width: 219px;
+        outline: none;
+        border: 0;
+        height: 72px;
+        border-radius: 14px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    background: #f7f9fc;
+    padding: 131px 0;
+    .contact_content {
+      display: grid;
+      align-items: center;
+      grid-template-columns: repeat(1, 1fr);
+      .contact_card1 {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 100%;
+        gap: 32px;
+        margin-bottom: 60px;
+        h1 {
+          font-family: Roboto;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 58px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #211f54;
+        }
+        p {
+          font-family: Roboto;
+          font-size: 21px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #6e7191;
+          width: 79%;
+        }
+        .tell {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          .tell_texts {
+            display: flex;
+            flex-direction: column;
+            width: 120px !important;
+            gap: 8px;
+            p {
+              display: flex;
+              align-items: center;
+              font-family: Roboto;
+              width: 120px !important;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 18px;
+              letter-spacing: 1.600000023841858px;
+              text-align: left;
+            }
+            span {
+              width: 220px !important;
+              font-family: Roboto;
+              font-size: 28px;
+              font-weight: 700;
+              line-height: 36px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #211f54;
+            }
+          }
+        }
+        .row {
+          display: flex !important;
+          background: #dcddeb;
+          height: 1px;
+          width: 80%;
+        }
+        h2 {
+          font-family: Roboto;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #211f54;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 214px;
+          background-color: #fff;
+          height: 73px;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+          border-radius: 14px;
+          transition: all 0.3s;
+        }
+        a:hover {
+          box-shadow: 0.75px 1px 4px 6px #14142b0a;
+        }
+      }
+      .contact_card2 {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        background-color: #fff;
+        flex-direction: column;
+        border-radius: 14px;
+        padding: 85px 61px;
+        box-shadow: 0px 2px 6px 0px #14142b0a;
+        .form {
+          display: flex !important;
+          gap: 32px;
+          .left {
+            display: flex;
+            flex-direction: column;
+            gap: 31px;
+            .inner {
+              display: flex;
+              flex-direction: column !important;
+              gap: 12px;
+              label {
+                display: flex;
+                align-items: start;
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+              }
+              input {
+                width: 259px;
+                height: 72px;
+                border: 0;
+                outline: none;
+                padding: 0 20px;
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+  
+                border-radius: 16px;
+                border: 1px;
+                box-shadow: 0px 2px 12px 0px #14142b14;
+              }
+            }
+          }
+        }
+        .massage {
+          display: flex;
+          flex-direction: column;
+          gap: 31px;
+          margin-top: 32px;
+          label {
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+          p {
+            width: 551px;
+            height: 144px;
+            box-shadow: 0px 2px 7px 0px #14142b14;
+          }
+        }
+        input {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 32px;
+          background-color: #0075ff;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #fff;
+  
+          width: 219px;
+          outline: none;
+          border: 0;
+          height: 72px;
+          border-radius: 14px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 392px) {
+  .contact {
+    background: #f7f9fc;
+    padding: 131px 0;
+    .contact_content {
+      display: grid;
+      align-items: center;
+      grid-template-columns: repeat(1, 1fr);
+      .contact_card1 {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        width: 80%;
+        gap: 32px;
+        margin-bottom: 60px;
+        h1 {
+          font-family: Roboto;
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 58px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #211f54;
+        }
+        p {
+          font-family: Roboto;
+          font-size: 21px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #6e7191;
+          width: 79%;
+        }
+        .tell {
+          display: flex;
+          align-items: start;
+          flex-direction: column;
+          width: 100%;
+          .tell_texts {
+            display: flex;
+            flex-direction: column;
+            width: 120px !important;
+            gap: 8px;
+            p {
+              display: flex;
+              align-items: center;
+              font-family: Roboto;
+              width: 120px !important;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 18px;
+              letter-spacing: 1.600000023841858px;
+              text-align: left;
+            }
+            span {
+              width: 220px !important;
+              font-family: Roboto;
+              font-size: 28px;
+              font-weight: 700;
+              line-height: 36px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #211f54;
+            }
+          }
+        }
+        .row {
+          display: flex !important;
+          background: #dcddeb;
+          height: 1px;
+          width: 80%;
+        }
+        h2 {
+          font-family: Roboto;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #211f54;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 214px;
+          background-color: #fff;
+          height: 73px;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+          border-radius: 14px;
+          transition: all 0.3s;
+        }
+        a:hover {
+          box-shadow: 0.75px 1px 4px 6px #14142b0a;
+        }
+      }
+      .contact_card2 {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        background-color: #fff;
+        flex-direction: column;
+        width: 80%;
+        border-radius: 14px;
+        padding: 85px 16px;
+        box-shadow: 0px 2px 6px 0px #14142b0a;
+        .form {
+          display: flex !important;
+          gap: 32px;
+          flex-direction: column;
+          .left {
+            display: flex;
+            flex-direction: column;
+            gap: 31px;
+            .inner {
+              display: flex;
+              flex-direction: column !important;
+              gap: 12px;
+              label {
+                display: flex;
+                align-items: start;
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+              }
+              input {
+                width: 259px;
+                height: 72px;
+                border: 0;
+                outline: none;
+                padding: 0 20px;
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+  
+                border-radius: 16px;
+                border: 1px;
+                box-shadow: 0px 2px 12px 0px #14142b14;
+              }
+            }
+          }
+        }
+        .massage {
+          display: flex;
+          flex-direction: column;
+          gap: 31px;
+          margin-top: 32px;
+          label {
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+          p {
+            width: 351px;
+            height: 144px;
+            box-shadow: 0px 2px 7px 0px #14142b14;
+          }
+        }
+        input {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 32px;
+          background-color: #0075ff;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #fff;
+  
+          width: 219px;
+          outline: none;
+          border: 0;
+          height: 72px;
+          border-radius: 14px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

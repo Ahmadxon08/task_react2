@@ -1,0 +1,262 @@
+.about {
+    margin-top: 156px;
+  .about_head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    margin-bottom: 60px;
+    h1 {
+      font-family: Roboto;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 58px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #211f54;
+    }
+    p {
+      font-family: Roboto;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #6e7191;
+      max-width: 650px;
+    }
+  }
+  .about_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+   
+    margin-bottom: 28px;
+    gap: 8px;
+    .about_card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      h1 {
+        font-family: Roboto;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #211f54;
+        margin: 40px 0 16px;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6e7191;
+      }
+    }
+  }
+  .about_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    .btn1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      width: 217px;
+      height: 72px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: center;
+      border-radius: 14px;
+      background-color: #0075ff;
+      transition: all 0.3s;
+    }
+    .btn1:hover {
+      color: #211f54;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+    .btn2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      width: 217px;
+      height: 72px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0em;
+      text-align: center;
+      border-radius: 14px;
+      color: #211f54;
+      transition: all 0.3s;
+      border: 1px solid #ccc;
+    }
+    .btn2:hover {
+      color: #fff;
+      background-color: #0075ff;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    .about_head {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 21px;
+      margin-bottom: 60px;
+      h1 {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #211f54;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6e7191;
+        max-width: 350px;
+      }
+    }
+    .about_cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      align-items: center;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+     
+      gap: 28px;
+      .about_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      
+        h1 {
+          font-family: Roboto;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #211f54;
+          margin: 40px 0 16px;
+        }
+        p {
+          font-family: Roboto;
+          font-size: 21px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #6e7191;
+        }
+      }
+    }
+    .about_btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 28px;
+      
+    }
+  }
+}
+
+@media (max-width: 392px) {
+  .about {
+    .about_head {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 21px;
+      margin-bottom: 60px;
+      h1 {
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #211f54;
+      }
+      p {
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #6e7191;
+        max-width: 350px;
+      }
+    }
+    .about_cards {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      align-items: center;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+     
+      gap: 28px;
+      .about_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      
+        h1 {
+          font-family: Roboto;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #211f54;
+          margin: 40px 0 16px;
+        }
+        p {
+          font-family: Roboto;
+          font-size: 21px;
+          font-weight: 400;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: center;
+          color: #6e7191;
+        }
+      }
+    }
+    .about_btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 28px;
+      
+    }
+  }
+}
