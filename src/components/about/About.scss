@@ -1,5 +1,10 @@
+@font-face {
+  font-family: Roboto;
+  src: url("/assets/fonts/Roboto-Regular.ttf");
+}
+
 .about {
-    margin-top: 156px;
+  margin-top: 156px;
   .about_head {
     display: flex;
     flex-direction: column;
@@ -31,14 +36,18 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-   
+ 
+
     margin-bottom: 28px;
-    gap: 8px;
+    gap: 18px;
     .about_card {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      border-radius: 14px;
+      padding: 28px 0;
+      transition: all .3s ease-in-out;
       h1 {
         font-family: Roboto;
         font-size: 28px;
@@ -58,6 +67,9 @@
         text-align: center;
         color: #6e7191;
       }
+    }
+    .about_card:hover{
+      box-shadow: .75px 1px 4px 6px #ccc;
     }
   }
   .about_btn {
@@ -147,14 +159,15 @@
       align-items: center;
       margin-bottom: 28px;
       flex-wrap: wrap;
-     
+
       gap: 28px;
       .about_card {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-      
+        cursor: pointer;
+
         h1 {
           font-family: Roboto;
           font-size: 28px;
@@ -175,13 +188,15 @@
           color: #6e7191;
         }
       }
+      .about_card:hover {
+        box-shadow: 0.75px 1px 4px 6px #ccc;
+      }
     }
     .about_btn {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 28px;
-      
     }
   }
 }
@@ -221,14 +236,14 @@
       align-items: center;
       margin-bottom: 28px;
       flex-wrap: wrap;
-     
+
       gap: 28px;
       .about_card {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-      
+
         h1 {
           font-family: Roboto;
           font-size: 28px;
@@ -256,7 +271,6 @@
       justify-content: center;
       flex-direction: column;
       gap: 28px;
-      
     }
   }
 }

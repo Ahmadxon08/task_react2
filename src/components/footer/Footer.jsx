@@ -50,7 +50,9 @@ const Footer = () => {
               <hr />
             </div>
             <div className="footer_end">
+              <a href="#">
               <img src={navLogo} alt="" />
+              </a>
               <p>
                 Copyright © Cleaning X | Designed by
                 <span>BRIX Templates</span>- Powered by

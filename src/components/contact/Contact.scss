@@ -1,6 +1,35 @@
 .contact {
   background: #f7f9fc;
   padding: 131px 0;
+  .scroll_top {
+    position: fixed;
+    display: flex;
+
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    padding: 14px 10px;
+    z-index: 6;
+    background-color: var(--thrid-color);
+    color: var(--thrid-color);
+    color: var(--fifth-color);
+    border: 0;
+    border-radius: 7px;
+    p {
+      font-family: Nunito Sans;
+      font-weight: 900;
+      font-size: 34px;
+      line-height: 16px;
+      background-color: var(--thrid-color);
+      color: var(--thrid-color);
+      color: var(--fifth-color);
+      padding-bottom: 4px;
+    }
+  }
+  .scroll_top:hover {
+    box-shadow: 1px 1px 4px 5px rgb(160, 155, 155);
+  }
+
   .contact_content {
     display: grid;
     align-items: center;
@@ -139,6 +168,8 @@
               line-height: 30px;
               letter-spacing: 0em;
               text-align: left;
+              background-color: #fff;
+              color: #211f54;
 
               border-radius: 16px;
               border: 1px;
@@ -334,7 +365,7 @@
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
-  
+
                 border-radius: 16px;
                 border: 1px;
                 box-shadow: 0px 2px 12px 0px #14142b14;
@@ -374,7 +405,7 @@
           letter-spacing: 0em;
           text-align: center;
           color: #fff;
-  
+
           width: 219px;
           outline: none;
           border: 0;
@@ -532,7 +563,7 @@
                 line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
-  
+
                 border-radius: 16px;
                 border: 1px;
                 box-shadow: 0px 2px 12px 0px #14142b14;
@@ -572,7 +603,7 @@
           letter-spacing: 0em;
           text-align: center;
           color: #fff;
-  
+
           width: 219px;
           outline: none;
           border: 0;
